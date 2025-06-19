@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/47deafdc-b07c-411e-8995-69b663c91992
+
 Controle de Vendas - App Android
 Descrição
 Aplicativo Android simples para controle de vendas e estoque de produtos, desenvolvido como projeto de extensão universitária. Permite cadastrar, listar, editar e excluir produtos, facilitando a gestão para micro e pequenas empresas.
