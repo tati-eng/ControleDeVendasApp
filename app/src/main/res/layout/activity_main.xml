@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="Controle de Vendas"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Nome do Produto -->
+    <EditText
+        android:id="@+id/etNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DDDDDD"
+        android:baselineAligned="false"
+        android:hint="Nome do Produto"
+        android:minHeight="48dp"
+        android:textColor="#000000" />     <!-- Cor de fundo clara para campo -->
+
+
+    <!-- Quantidade -->
+    <EditText
+        android:id="@+id/etQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Botão Salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Salvar" />
+    <Button
+        android:id="@+id/btnVerProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Produtos"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
